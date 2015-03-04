@@ -9,7 +9,7 @@
 - Resource Owner Password Credentials Grant
 
 ## Start server
-``
+```
 vagrant up
 
 ## Usage 
