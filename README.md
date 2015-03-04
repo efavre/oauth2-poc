@@ -3,7 +3,7 @@
 ## Roles : 
 - Authorization Server (http://localhost:3003)
 - Resource Server (http://localhost:3003)
-- Clients (http://localhost:3001 and http://localhost:3002)
+- Clients (http://localhost:3001)
 
 ## Implemented OAuth flow :
 - Resource Owner Password Credentials Grant
@@ -13,8 +13,8 @@
 vagrant up
 
 ## Usage 
-- Access to either client http://localhost:3001/protected_resources or http://localhost:3002/protected_resources
-- If not already authenticated, you are redirected to http://localhost:3001/sessions/new or http://localhost:3002/sessions/new
-- If authentication success ("user1", "password" or "user2", "password"), redirected to http://localhost:3001/protected_resources or http://localhost:3002/protected_resources
+- Access to either client http://localhost:3001/protected_resources
+- If not already authenticated, you are redirected to http://localhost:3001/sessions/new 
+- If authentication success ("user1", "password" or "user2", "password"), redirected to http://localhost:3001/protected_resources
 - http://localhost:3001/protected_resources displays resource server resources ("Resource1" and "Resource2")
 
