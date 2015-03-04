@@ -11,6 +11,7 @@
 ## Start server
 ```
 vagrant up
+````
 
 ## Usage 
 - Access to either client http://localhost:3001/protected_resources
