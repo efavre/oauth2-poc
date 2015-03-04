@@ -8,7 +8,7 @@
 ## Implemented OAuth flow :
 - Resource Owner Password Credentials Grant
 
-## Start server
+## Start servers
 ```
 vagrant up
 ````
